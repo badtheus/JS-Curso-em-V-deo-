@@ -7,16 +7,19 @@
     <title>Modelo de Exercício</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1>Titulo</h1>
+        <h1>Vamos contar</h1>
     </header>
     <section>
-        <div id="msg">
-           Aqui vai aparecer a mensagem...
+        <div id="dados">
+           <p>Início: <input type="number" name="inicio" id="txti"></p>
+            <p>Fim: <input type="number" name="fim" id="txtf"></p>
+            <p>Passo: <input type="number" name="passo" id="txtp"></p>
+            <p> <input type="button" value="contar" onclick="contar()"></p>
         </div>
-        <div id="foto">
-            <img id="imagem" src="manha.jpg" alt="foto do dia " height="250" width="250">
+        <div id="res">
+            Preparando a contagem...
 
         </div>
     </section>
